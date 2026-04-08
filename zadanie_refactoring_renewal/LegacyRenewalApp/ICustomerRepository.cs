@@ -2,7 +2,7 @@
 
 public interface ICustomerRepository
 {
-    Customer GetByID(int id);
+    Customer GetById(int customerId);
 }
 
 public interface IPlanRepository
